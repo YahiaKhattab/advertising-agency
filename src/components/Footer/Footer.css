@@ -125,5 +125,6 @@ color: white;;
     .footerFullW{
         width: 100% !important;
         padding: 0;
+        margin: 0;
     }
 }

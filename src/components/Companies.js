@@ -9,22 +9,22 @@ const Companies = () => {
     <div className="containter px-3 px-md-5 py-md-4 mx-md-5 my-md-5">
         <div className="row ">
             <div className="col-4 col-md-2 d-flex justify-content-center">
-                <img src={amazon} alt="amazon" />
+                <img src={amazon} alt="amazon" className='img-fluid'/>
             </div>
             <div className="col-4 col-md-2 d-flex justify-content-center">
-                <img src={dribbble} alt="dribbble" />
+                <img src={dribbble} alt="dribbble" className='img-fluid'/>
             </div>
             <div className="col-4 col-md-2 d-flex justify-content-center">
-                <img src={hubspot} alt="hubSpot" />
+                <img src={hubspot} alt="hubSpot" className='img-fluid'/>
             </div>
             <div className="col-4 col-md-2 d-flex justify-content-center">
-                <img src={notion} alt="notion" />
+                <img src={notion} alt="notion" className='img-fluid'/>
             </div>
             <div className="col-4 col-md-2 d-flex justify-content-center">
-                <img src={netflix} alt="netflix" />
+                <img src={netflix} alt="netflix" className='img-fluid'/>
             </div>
             <div className="col-4 col-md-2 d-flex justify-content-center">
-                <img src={zoom} alt="zoom" />
+                <img src={zoom} alt="zoom" className='img-fluid'/>
             </div>
         </div>
     </div> );
