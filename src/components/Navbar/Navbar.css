@@ -1,0 +1,26 @@
+Nav{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0%;
+}
+Button{
+    border: 1px solid #191A23
+}
+.dashBtn{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+}
+@media (max-width:768px){
+    .linkHover:hover{
+        background-color: grey;  
+    }
+    .linkHover{
+ text-align: center;
+    }
+}

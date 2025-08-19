@@ -1,0 +1,125 @@
+.footerCont{
+    background: #191A23;
+border-top-left-radius: 45px;
+border-top-right-radius: 45px;
+}
+.footerContact{
+background: #B9FF66;
+padding-right: 7px;
+padding-left: 7px;
+border-radius: 7px;
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+width: 126px;
+height: 26px;
+vertical-align: medium;
+}
+.footerP{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+}
+.footerInput{
+    /* width: 634;
+height: 184; */
+padding-top: 58px;
+padding-right: 40px;
+padding-bottom: 58px;
+padding-left: 40px;
+border-radius: 14px;
+background: #292A32;
+}
+.footerBtn{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+color: #000000;
+}
+.footerEmail{
+width:56% !important;
+padding-top: 22px;
+padding-right: 35px;
+padding-bottom: 22px;
+padding-left: 35px;
+border-radius: 14px;
+border-width: 1px;
+border: 1px solid #FFFFFF;
+background: #292A32;
+}
+.footerBtnSize{
+    width: 50% !important;
+}
+.footerEmail::placeholder{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color:white;
+}
+.policy{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0%;
+text-decoration: underline;
+text-decoration-style: solid;
+text-decoration-thickness: 0%;
+color:white;
+}
+.copyright{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0%;
+color: white;;
+}
+.footerIcon:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+@media (max-width:768px){
+    .footerCont{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    .footerCont a{
+        text-decoration: none;
+    }
+    .footerMobContact{
+        align-items: center;
+        text-align: center;
+    }
+    .footerBtnSize{
+        width: 100% !important;
+    }
+    .footerEmail{
+        width: 100% !important;
+    }
+    .footerInput{
+        width: 100% !important;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .copyright{
+        font-size: 15px;
+    }
+    .policy{
+        font-size: 15px;
+        text-decoration: none;
+    }
+}

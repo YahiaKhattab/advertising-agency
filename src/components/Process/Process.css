@@ -1,0 +1,62 @@
+.cardH1{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 500;
+font-style: Medium;
+font-size: 60px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.cardSpan{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 500;
+font-style: Medium;
+font-size: 30px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+}
+.cardStyle{
+    background: #F3F3F3;
+border: 1px solid #191A23;
+box-shadow: 0px 5px 0px 0px #191A23;
+border-radius: 45px;
+}
+.active-card {
+    background-color: #B9FF66 !important;
+}
+.cardBody{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.toggleBtn{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+@media (max-width:768px){
+    .cardH1{
+        font-size: 30px;
+    }
+    .cardSpan{
+        font-size: 20px;
+    }
+    .toggleBtn{
+        width:40px;
+        height: 40px;
+    }
+    .processH2{
+        width:63%;
+    }
+}

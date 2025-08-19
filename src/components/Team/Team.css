@@ -1,0 +1,54 @@
+.cardTeam{
+    padding: 40px 35px;
+    border-radius: 35px;
+    border: 1px solid #191A23;
+    box-shadow: 0px 5px 0px 0px #191A23;
+    width:387px;
+    height:331px;
+}
+.cardTeam:hover{
+    transform: translateY(-10px);
+}
+.member{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.role{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.desc{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.teamBtnSize{
+    width:21.4%;
+}
+.footerLink{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-decoration: underline;
+text-decoration-style: solid;
+text-decoration-thickness: 0%;
+color: #FFFFFF;
+}
+@media (max-width:768px){
+  .teamBtnSize{
+    width:100%;
+}  
+.studiesH2{
+}
+}

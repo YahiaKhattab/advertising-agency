@@ -1,0 +1,37 @@
+.header1{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 500;
+font-style: Medium;
+font-size: 60px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.headerP{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0%;
+}
+.bookBtn{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+}
+.bookBtnSize{
+    width: 50%;
+}
+@media (max-width:768px) {
+    .bookBtnSize{
+        width: 100% !important;
+    }
+    .header1{
+        font-size:48px ;
+    }
+    .headerP{
+        font-size:17px;
+    }
+}

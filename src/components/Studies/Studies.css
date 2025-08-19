@@ -1,0 +1,58 @@
+.studiesH2{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 500;
+font-style: Medium;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: 0%;
+background: #B9FF66;
+border-radius: 7px;
+}
+.studiesP{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+max-width: 45%;
+}
+.studiesP2{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+}
+.studiesLink{
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0%;
+color: #B9FF66;
+text-decoration: none;
+}
+.swiper-button-prev-custom,
+.swiper-button-next-custom {
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: black !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transform: translateX(300px);
+}
+@media (max-width:768px){
+    .studiesP{
+        max-width: 100% !important;
+        text-align: center;
+        font-size: 16px;
+    }
+    .caseH2{
+        width:70%;
+    }
+}
