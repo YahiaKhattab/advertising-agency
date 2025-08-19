@@ -1,16 +1,6 @@
-import { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Spinner, Container } from 'react-bootstrap';
-import Header from './components/Header/Header';
- import Navbar from './components/Navbar/Navbar';
 import NotFound from "./pages/NotFound.js";
-import Companies from './components/Companies.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Proposal from './components/Proposal/Proposal.js';
-import Studies from './components/Studies/Studies.js';
-import Process from './components/Process/Process.js';
-import Team from './components/Team/Team.js';
-import Footer from './components/Footer/Footer.js';
 import Home from './pages/Home.js';
 
 

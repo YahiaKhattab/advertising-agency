@@ -1,5 +1,5 @@
 import './Process.css';
-import { FaPlusCircle, FaMinusCircle,FaPlus,FaMinus } from "react-icons/fa";
+import { FaPlus,FaMinus } from "react-icons/fa";
 import { useContext, useState } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import AccordionContext from 'react-bootstrap/AccordionContext';

@@ -1,6 +1,5 @@
 import './Services.css';
 import { Card } from 'react-bootstrap';
-import search from '../../images/search.png';
 import { MdArrowOutward } from "react-icons/md";
 const Services = ({services}) => {
     return (
@@ -27,7 +26,7 @@ const Services = ({services}) => {
                                             </div>
                                             <div className="d-flex gap-3 align-items-center mt-2 d-none d-md-block">
                                                 <button className="serviceBtn" style={{backgroundColor:`${service.link_color}`}}> <MdArrowOutward size={28} style={{color: service.link_color === "#000000" ? "#B9FF66" : "#000000"}}/> </button>
-                                                <a href='#' className='serviceLink ' style={{color:`${service.link_color}`}}> Learn more</a>
+                                                <a href='/more' className='serviceLink ' style={{color:`${service.link_color}`}}> Learn more</a>
                                             </div>
                                         </div>
                                     </div>

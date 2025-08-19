@@ -11,11 +11,11 @@ const Footer = () => {
                 <div className="d-flex flex-column flex-md-row justify-content-between align-items-center align-items-md-end mb-5">
                     <img src={positivus} alt="positivus logo" className='img-fluid mb-5 mb-md-0' />
                     <div className="d-flex flex-column flex-md-row justify-content-between gap-4">
-                        <a href="" className='footerLink'>About us</a>
+                        <a href="#about" className='footerLink'>About us</a>
                         <a href="#services" className='footerLink'>Services</a>
                         <a href="#cases" className='footerLink'>Use Cases</a>
-                        <a href="" className='footerLink'>Pricing</a>
-                        <a href="" className='footerLink d-none d-md-block'>Blog</a>
+                        <a href="#pricing" className='footerLink'>Pricing</a>
+                        <a href="#blog" className='footerLink d-none d-md-block'>Blog</a>
                     </div>
                     <div className="d-flex justify-content-between gap-5 d-none d-md-block">
                         <TiSocialLinkedinCircular size={33} color='white' className='footerIcon me-3' />
