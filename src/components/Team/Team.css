@@ -49,6 +49,8 @@ color: #FFFFFF;
   .teamBtnSize{
     width:100%;
 }  
-.studiesH2{
+.cardTeam{
+    width:350px;
+    height:331px;
 }
 }

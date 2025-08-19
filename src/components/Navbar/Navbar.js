@@ -6,7 +6,7 @@ import './Navbar.css';
 export default function MyNavbar() {
   return (
     <Navbar expand="md" bg="white" collapseOnSelect>
-      <Container className='px-3 py-4 p-md-5'>
+      <Container className='ps-4 py-4 p-md-5'>
         <img src={positivus} alt="positivus logo" />
         <Navbar.Toggle aria-controls="main-navbar" />
         <Navbar.Collapse id="main-navbar">

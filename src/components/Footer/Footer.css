@@ -122,4 +122,8 @@ color: white;;
         font-size: 15px;
         text-decoration: none;
     }
+    .footerFullW{
+        width: 100% !important;
+        padding: 0;
+    }
 }

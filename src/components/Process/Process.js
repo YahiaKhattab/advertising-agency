@@ -5,8 +5,12 @@ import Accordion from 'react-bootstrap/Accordion';
 import AccordionContext from 'react-bootstrap/AccordionContext';
 import { useAccordionButton } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
+import { useMediaQuery } from 'react-responsive';
+
 
 function ContextAwareToggle({ eventKey, onToggle }) {
+        const isMobile = useMediaQuery({ maxWidth: 768 });
+
     const { activeEventKey } = useContext(AccordionContext);
     const decoratedOnClick = useAccordionButton(eventKey, () => {
         if (onToggle) onToggle(eventKey);
@@ -15,8 +19,11 @@ function ContextAwareToggle({ eventKey, onToggle }) {
     const isCurrentEventKey = activeEventKey === eventKey;
 
     return (
-        <button type="button" onClick={decoratedOnClick} className='toggleBtn'>
+       !isMobile? <button type="button" onClick={decoratedOnClick} className='toggleBtn'>
             {isCurrentEventKey ? <FaMinus size={28} /> : <FaPlus size={28} />}
+        </button> :
+        <button type="button" onClick={decoratedOnClick} className='toggleBtn'>
+            {isCurrentEventKey ? <FaMinus size={20} /> : <FaPlus size={20} />}
         </button>
     );
 }
@@ -62,7 +69,7 @@ const Process = () => {
     ];
 
     return (
-        <div className="container ps-3 ps-md-5 pt-5">
+        <div className="container ps-4 ps-md-5 pt-5">
             <div className='d-flex flex-column flex-md-row text-center gap-4 gap-md-5 pb-md-5 mb-3 align-items-center align-items-md-start'>
                 <h2 className='studiesH2 px-2 processH2'>Our Working Process</h2>
                 <p className='studiesP' style={{ maxWidth: "25%" }}>Step-by-Step Guide to Achieving Your Business Goals</p>
@@ -72,8 +79,9 @@ const Process = () => {
                 {accordionItems.map(({ key, title, content }) => (
                     <Card key={key} className={`px-5 px-md-5 pt-4 mb-4 cardStyle ${activeKey === key ? 'active-card' : ''}`}>
                         <Card.Header key={key} style={{ backgroundColor: "#F3F3F3" }} className={`pb-4 ${activeKey === key ? 'active-card' : ''}`}>
-                            <div className="d-flex justify-content-between">
-                                <h1 className='cardH1'>{`0${parseInt(key) + 1} `}<span className='cardSpan'> {title}</span></h1>
+                            <div className="d-flex justify-content-between align-items-center">
+                                <h1 className='cardH1'>{`0${parseInt(key) + 1} `}<span className='cardSpan d-none d-md-inline'> {title}</span></h1>
+                                <span className='cardSpan d-block d-md-none'> {title}</span>
                                 <ContextAwareToggle eventKey={key} onToggle={handleToggle} />
                             </div>
                         </Card.Header>

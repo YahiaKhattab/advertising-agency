@@ -47,14 +47,15 @@ letter-spacing: 0%;
 }
 @media (max-width:768px){
     .cardH1{
-        font-size: 30px;
+        font-size: 28px;
     }
     .cardSpan{
-        font-size: 20px;
+        font-size: 18px;
+        text-align: center;
     }
     .toggleBtn{
-        width:40px;
-        height: 40px;
+        width:25px;
+        height: 25px;
     }
     .processH2{
         width:63%;

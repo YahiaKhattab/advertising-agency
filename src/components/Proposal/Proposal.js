@@ -3,8 +3,8 @@ import {Button} from 'react-bootstrap';
 import './Proposal.css'
 const Proposal = () => {
     return (
-        <div className="container ps-3 ps-md-5 pb-5">
-            <div className='mx-2 py-3 my-5 ' style={{ backgroundColor: "#F3F3F3", borderRadius: "45px" ,position:'relative'}}>
+        <div className="container ps-4 ps-md-5 pb-md-5">
+            <div className=' py-1 py-md-3 my-5 ' style={{ backgroundColor: "#F3F3F3", borderRadius: "45px" ,position:'relative'}}>
                 <div className="row d-flex justify-content-between">
                 <div className=" col-12 col-md-6">
                     <div className="d-flex flex-column justify-content-center gap-4 p-5">
