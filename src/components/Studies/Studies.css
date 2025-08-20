@@ -44,16 +44,16 @@ text-decoration: none;
     height: auto !important;
     margin: 0 !important;
     padding: 0 !important;
-    transform: translateX(300px);
+    transform: translateX(270px);
 }
 @media (max-width:768px){
     .studiesP{
         max-width: 100% !important;
         text-align: center;
-        font-size: 16px;
+        font-size: 15px;
     }
     .caseH2{
-        width:70%;
+        width:80%;
     }
     .studiesP2{
         font-size: 16px;

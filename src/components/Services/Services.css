@@ -47,5 +47,6 @@ text-decoration: none;
     }
     .servicesSpan{
         text-align: center;
+        font-size: 15px;
     }
 }

@@ -16,7 +16,7 @@ const Studies = () => {
     return (
         !isMobile ? <div className="container ps-5 py-5 mb-5" id="cases">
             <div div className='d-flex flex-column flex-md-row text-center gap-5 pb-5' >
-                <h2 className='studiesH2 px-2'>Case Studies</h2>
+                <h2 className='studiesH2 px-2 '>Case Studies</h2>
                 <p className='studiesP'>Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>
             </div >
             <div className="container py-5" style={{ backgroundColor: "#191A23", borderRadius: "45px" }}>
@@ -36,7 +36,7 @@ const Studies = () => {
                 </div>
             </div>
         </div > :
-            <div className="container ps-4 pt-5 " id="cases">
+            <div className="container ps-3 pt-5 " id="cases">
                 <div div className='d-flex flex-column flex-md-row text-center gap-4 gap-md-5 align-items-center align-items-md-start' >
                     <h2 className='studiesH2 px-2 caseH2'>Case Studies</h2>
                     <p className='studiesP'>Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>

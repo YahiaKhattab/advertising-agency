@@ -10,8 +10,8 @@ import Member from './Member';
 import { Button } from 'react-bootstrap';
 const Team = () => {
     return (
-        <div className="container ps-4 ps-md-5 py-5 my-5">
-            <div className='d-flex flex-column flex-md-row text-center gap-5 pb-5 mb-3'>
+        <div className="container ps-3 ps-md-5 py-5 mb-5 my-md-5">
+            <div className='d-flex flex-column flex-md-row text-center gap-4 gap-md-5 pb-4 pb-md-5 mb-md-3'>
                 <h2 className='studiesH2 px-2'>Team</h2>
                 <p className='studiesP' style={{ maxWidth: "35%" }}>Meet the skilled and experienced team behind our successful digital marketing strategies</p>
             </div>

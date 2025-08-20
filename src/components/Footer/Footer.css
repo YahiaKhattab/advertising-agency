@@ -129,5 +129,9 @@ color: white;;
     }
     .footerLink{
         text-align: center;
+        font-size: 15px;
+    }
+    .footerP{
+        font-size: 15px;
     }
 }
