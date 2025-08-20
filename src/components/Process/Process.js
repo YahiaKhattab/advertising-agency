@@ -69,7 +69,7 @@ const Process = () => {
     ];
 
     return (
-        <div className="container ps-3 ps-md-5 pt-5">
+        <div className="container px-3 ps-md-5 pt-5">
             <div className='d-flex flex-column flex-md-row text-center gap-4 gap-md-5 pb-md-5 mb-3 align-items-center align-items-md-start'>
                 <h2 className='studiesH2 px-2 processH2'>Our Working Process</h2>
                 <p className='studiesP' style={{ maxWidth: "25%" }}>Step-by-Step Guide to Achieving Your Business Goals</p>

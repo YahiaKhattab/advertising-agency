@@ -36,7 +36,7 @@ const Studies = () => {
                 </div>
             </div>
         </div > :
-            <div className="container ps-3 pt-5 " id="cases">
+            <div className="container px-3 pt-5 " id="cases">
                 <div div className='d-flex flex-column flex-md-row text-center gap-4 gap-md-5 align-items-center align-items-md-start' >
                     <h2 className='studiesH2 px-2 caseH2'>Case Studies</h2>
                     <p className='studiesP'>Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>

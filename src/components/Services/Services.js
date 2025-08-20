@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap';
 import { MdArrowOutward } from "react-icons/md";
 const Services = ({services}) => {
     return (
-        <div className="container ps-3 ps-md-5 pt-2 pt-md-5  mt-5" id="services">
+        <div className="container px-3 ps-md-5 pt-2 pt-md-5  mt-5" id="services">
             <div className='d-flex flex-column flex-md-row align-items-center align-items-md-start gap-4 gap-md-5 pb-5'>
                 <h2 className='studiesH2 px-2 text-center servicesH2'>Services</h2>
                 <div className="d-md-flex flex-md-column">

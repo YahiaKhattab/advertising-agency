@@ -7,7 +7,7 @@ import { Button } from 'react-bootstrap';
 const Footer = () => {
     return (
         <div className="container footerFullW">
-            <div className="footerCont ms-md-5 p-5">
+            <div className="footerCont mx-md-4 p-5">
                 <div className="d-flex flex-column flex-md-row justify-content-between align-items-center align-items-md-end mb-5">
                     <img src={positivus} alt="positivus logo" className='img-fluid mb-5 mb-md-0' />
                     <div className="d-flex flex-column flex-md-row justify-content-between gap-4">
